@@ -20,6 +20,8 @@ conta2.cliente = cliente2;
 conta2.agencia = 102;
 
 console.log(conta2);
-contaCorrenteEvelyn.transferir(200, conta2);
-console.log(conta2);
+
+let valor = 200;
+contaCorrenteEvelyn.transferir(valor, conta2);
+console.log("valor: ", valor);
 console.log(contaCorrenteEvelyn);
