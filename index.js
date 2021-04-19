@@ -12,8 +12,14 @@ cliente2.cpf = 44488855598;
 const contaCorrenteEvelyn = new ContaCorrente();
 
 contaCorrenteEvelyn.agencia = 1001;
-contaCorrenteEvelyn.depositar(300);
-const valorSacado = contaCorrenteEvelyn.sacar(50)
-console.log(valorSacado);
+contaCorrenteEvelyn.cliente = cliente1;
+contaCorrenteEvelyn.depositar(500);
 
+const conta2 = new ContaCorrente();
+conta2.cliente = cliente2;
+conta2.agencia = 102;
+
+console.log(conta2);
+contaCorrenteEvelyn.transferir(200, conta2);
+console.log(conta2);
 console.log(contaCorrenteEvelyn);
