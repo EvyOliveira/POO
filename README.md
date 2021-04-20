@@ -1,0 +1,2 @@
+# JavaScript: Programando a Orientação a Objetos
+Curso da carreira Alura Cursos Online. Abordagem do conceito de referências e objetos, atributos, métodos da instância e da classe, definição de objetos por meio de construtores e encapsulamento.
